@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6500EC4B-AD2D-977D-3F5E-F56B872AA8CE" name="EMPRESAS">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>B3E47B2C-BEBA-9F1B-3E4E-B20EC83B99C7</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emp_id" id="F088E6ED-3235-069D-8984-5E8C536D9C84">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>7B5C1F70-A845-00C1-E2FB-3FF9A067782E</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_razon_social" id="F3B793BF-20DC-0983-A673-3AFC3F4B3D78">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>A8CD247A-63B9-705E-D4D9-7771ED3354C3</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_ruc" id="50CCED3D-6E43-A2CC-DEF7-E2DD439200C0">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>5A042328-7532-6BD2-8D9C-3EB1144DF34C</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_telefono" id="27EDE912-EFF8-80EF-C8DF-3A19CDBC592E">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>EA3807BD-9D19-D641-EA66-1C7CF5B6D7EF</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_direccion" id="A9A01FDA-2849-70ED-3E95-5D9F6BC610FB">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>9896C407-0675-DB15-1B11-376FA5BC104D</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_correo_electronico" id="5A60368C-CD8E-B4A7-5203-1F69B4ABAB4E">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>3A763F0A-6626-91BD-39F6-475B9B8DED54</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F782E617-537A-38B1-19D7-907A2E7C4E81" name="EMPRESAS_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>CFCC0574-EC54-8EEE-4DD1-D274234EE637</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F088E6ED-3235-069D-8984-5E8C536D9C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

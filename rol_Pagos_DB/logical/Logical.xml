@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DFBD22E7-92F4-054D-24E3-0783AC15A587" mainViewID="8A83C641-8B7A-D04F-67C9-6F65A12FDB80">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2018-11-30 19:24:59 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

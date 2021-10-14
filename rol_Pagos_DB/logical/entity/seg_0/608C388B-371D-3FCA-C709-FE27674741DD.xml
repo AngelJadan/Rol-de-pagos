@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="608C388B-371D-3FCA-C709-FE27674741DD" name="REP_LEGALES">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:08:20 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rep id" id="37945048-FE16-FF58-1D16-D82A6B336EAE">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:08:57 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rep fecha ingreso" id="50076052-BBB1-5CC5-D5C0-5ACB2CDED542">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:09:14 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rep fecha salida" id="BB22EBAA-A5AC-D679-A1ED-57F343D6DF09">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:09:29 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPRESAS emp id" id="81432EF8-84B2-132D-1C0F-67008DC98396">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:24:35 UTC</createdTime>
+<generatorID>A0EEA704-56C1-3A3E-E00C-80885E4BBD80</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="true"/>
+</engineerTo>
+<referedAttribute>7B5C1F70-A845-00C1-E2FB-3FF9A067782E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per id" id="DBFD63C6-EE7C-4F40-04D6-F92394C148B8">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-12 05:00:30 UTC</createdTime>
+<generatorID>D7686D0A-B4D8-B45D-C9B6-33645B2CBD1F</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="true"/>
+</engineerTo>
+<referedAttribute>8D2DCA34-2C33-8AF3-79DD-129D783441AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F554052-A4E9-590C-EA00-EC42CD99CD93" name="REPRESENTANTES_LEGALES_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:09:09 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FE11902F-56DE-2961-AAFB-693AD68098A2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37945048-FE16-FF58-1D16-D82A6B336EAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

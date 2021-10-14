@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB7CAA9D-6CC5-D0C8-E4BC-1860F14D487D" name="HORARIOS">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>BF6910A2-2817-F63A-49A9-F834334AC0B4</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hor_id" id="0595496A-E397-8E24-17E9-A74FD0644BDE">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>0CBFB5F7-4690-88E8-645B-26D8752C9FC0</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATOS_con_id" id="7293FEC6-1C84-621D-B07F-F1FFEB002B07">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>E80696F8-538C-CC3C-571D-009307D0503B</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A063B5FC-12F9-2E67-1BEB-399E0A18E429" referredColumn="0567A441-8304-E7B3-E060-7AEC8EA18B60"/>
+</associations>
+</Column>
+<Column name="DIAS_hor_id" id="1728C415-DA85-61EF-D0EC-B5FC677E1696">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>36181C8C-DF33-3F1C-15A6-CDE7F3C67DB8</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="224A9703-C817-24C4-623F-058090A14070" referredColumn="A2DBB639-B70D-52C9-A9CD-D699B6AC9F26"/>
+</associations>
+</Column>
+<Column name="HORAS_hor_id1" id="45798432-A210-9344-81F1-99ABF822CEDC">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>603D72DC-51D8-71D8-F29C-B8E754ABB737</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C916EA9A-B302-AF0B-08B0-DDD1D855BEB9" referredColumn="3EB147C7-81F3-105A-4E9B-CDC11D9BF6C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="664552B5-1902-4CB7-EBA6-0EB805BF4985" name="HORARIOS_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>614379C7-8F07-4716-30D8-AFD2AED2B068</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0595496A-E397-8E24-17E9-A74FD0644BDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2361C15E-BB70-B61E-1FF6-7A3DCA3E4935" name="HORARIOS_CONTRATOS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>E5FE56BD-065B-1240-9927-558088E60B1B</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7293FEC6-1C84-621D-B07F-F1FFEB002B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F368D4B-01AC-5C78-FB69-EF8A5BFE272F" name="HORARIOS_DIAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>79E367C8-A580-0240-3F17-4A0738509710</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1728C415-DA85-61EF-D0EC-B5FC677E1696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DDB0BFF-0258-210C-4751-24F2E9638292" name="HORARIOS_HORAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>ED074116-2BCB-EEB8-A979-9FCFBFC814C6</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45798432-A210-9344-81F1-99ABF822CEDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

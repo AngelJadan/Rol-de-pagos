@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="4EAAAD75-CE84-78BA-EE35-21651FB3040A">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:56:23 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+</engineerTo>
+<sourcePk>75E4C334-3A56-EF30-CE66-CD2015D47A90</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8053300-4DB0-0608-5593-C0C31B626EB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>900B0802-B5B2-D38A-1477-6FDDDC0E306E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

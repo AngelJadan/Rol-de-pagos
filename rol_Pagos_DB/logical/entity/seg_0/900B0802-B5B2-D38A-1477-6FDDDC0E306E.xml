@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="900B0802-B5B2-D38A-1477-6FDDDC0E306E" name="Asistencias">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:55:38 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="asi_id" id="799964E0-4AA6-9382-359A-1CEC58B14823">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:55:47 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hor id" id="90CBDB8A-0DE5-034A-22CD-EEA71E936594">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:56:23 UTC</createdTime>
+<generatorID>4EAAAD75-CE84-78BA-EE35-21651FB3040A</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<referedAttribute>44234C42-6AE9-EFC1-A592-6A4831D69944</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hor id1" id="7089FECF-3834-6029-F09F-C637C22D0172">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:56:31 UTC</createdTime>
+<generatorID>DFC7F521-A36E-B560-36B5-3C3B7D88DCF7</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<referedAttribute>06DEB505-CDF3-B379-BE0B-7C3091BB2466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per id" id="CB056C2D-1594-0EC3-0984-8FD5275CA8D7">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:57:28 UTC</createdTime>
+<generatorID>D76500F6-751F-BFF2-55E9-4EB52C9A7BB6</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<referedAttribute>8D2DCA34-2C33-8AF3-79DD-129D783441AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF43ED58-935E-C7D7-2D99-3673E762DDDE" name="Asistencias PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 20:56:01 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>799964E0-4AA6-9382-359A-1CEC58B14823</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

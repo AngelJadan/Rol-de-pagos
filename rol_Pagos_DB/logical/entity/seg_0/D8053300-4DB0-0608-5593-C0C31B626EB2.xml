@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8053300-4DB0-0608-5593-C0C31B626EB2" name="DIAS">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:15:17 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hor id" id="44234C42-6AE9-EFC1-A592-6A4831D69944">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:15:27 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hor dia" id="6B15C014-7ED6-EB80-301C-4790DE468F57">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:15:42 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75E4C334-3A56-EF30-CE66-CD2015D47A90" name="DIAS_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:15:40 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44234C42-6AE9-EFC1-A592-6A4831D69944</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

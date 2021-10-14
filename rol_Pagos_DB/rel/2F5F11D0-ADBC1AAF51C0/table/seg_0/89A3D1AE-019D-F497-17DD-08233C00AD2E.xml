@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89A3D1AE-019D-F497-17DD-08233C00AD2E" name="ASIS_ROLES">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>BAFA033B-3DE0-2017-F738-390E03412EC6</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aro_id" id="CD4E1522-31C2-283D-A440-8534CBBFD44C">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>633B7B48-5599-8CA7-F16F-8A9FBEA9C7DA</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asistencias_asi_id" id="48635555-5FC8-9B4D-F872-BFB3437111BD">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>DC75AA4C-2108-FF1D-31C5-62F65CB05206</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32AFAAF9-AA7A-3833-0595-F67DCB7CD317" referredColumn="94539043-F5DA-8DC4-DD17-E296414C3123"/>
+</associations>
+</Column>
+<Column name="ROLES_rol_id" id="5D041FD1-A739-877E-FE8D-7DF1C09FBF37">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>3774B08E-3C6A-C332-9296-779D87D7EF04</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84B6D6C4-735E-9C45-E2C1-825D49BA8C1A" referredColumn="74822648-2E52-8D2A-E93D-F0AC35C2B7D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7C7F1F1-2DFD-A69A-8BBE-F0668A2465BB" name="ASIS_ROLES_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>E172FE71-2344-4994-15F5-EB483A9FC512</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD4E1522-31C2-283D-A440-8534CBBFD44C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7EED7B7-20E4-A7F4-DC10-A48A9EBAB445" name="ASIS_ROLES_Asistencias_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>03A1EC6B-DABB-4143-5264-DF80CB142BA3</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48635555-5FC8-9B4D-F872-BFB3437111BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3673FA7F-1E69-6AFE-ABFE-F35CCF6B5330" name="ASIS_ROLES_ROLES_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>217AC482-22B5-2FAE-BDF1-6B340E5E47EA</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D041FD1-A739-877E-FE8D-7DF1C09FBF37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

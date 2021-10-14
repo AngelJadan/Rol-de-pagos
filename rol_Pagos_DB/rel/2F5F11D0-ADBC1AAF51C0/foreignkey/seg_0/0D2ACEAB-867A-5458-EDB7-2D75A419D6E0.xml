@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D2ACEAB-867A-5458-EDB7-2D75A419D6E0" containerWithKeyObject="8E04AD1D-C681-F936-9FB9-97C0FE25572F" localFKIndex="D773D551-E130-1FCF-E283-41F6EE654351" name="Asistencias_DIAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>4EAAAD75-CE84-78BA-EE35-21651FB3040A</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<referredTableLongName>DIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD79A755-1FCE-1AE3-4E72-5B034D900554</referredTableID>
+<keyObject>23AA881B-5EF2-C698-C58A-5C3AA3CAB956</keyObject>
+<referredKeyID>23AA881B-5EF2-C698-C58A-5C3AA3CAB956</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>hor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

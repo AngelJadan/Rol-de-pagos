@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E04AD1D-C681-F936-9FB9-97C0FE25572F" name="Asistencias">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>900B0802-B5B2-D38A-1477-6FDDDC0E306E</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="asi_id" id="94539043-F5DA-8DC4-DD17-E296414C3123">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>799964E0-4AA6-9382-359A-1CEC58B14823</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAS_hor_id" id="505004AA-9469-0635-BD57-4A0742DE9F4D">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>90CBDB8A-0DE5-034A-22CD-EEA71E936594</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D2ACEAB-867A-5458-EDB7-2D75A419D6E0" referredColumn="A2DBB639-B70D-52C9-A9CD-D699B6AC9F26"/>
+</associations>
+</Column>
+<Column name="HORAS_hor_id1" id="566C632A-A675-271E-C74F-E3F34EF782B3">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>7089FECF-3834-6029-F09F-C637C22D0172</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66B44DD7-D6E2-9BBA-1B45-945448765E2B" referredColumn="3EB147C7-81F3-105A-4E9B-CDC11D9BF6C2"/>
+</associations>
+</Column>
+<Column name="PERSONAS_per_id" id="71D1F353-6418-F3DC-E171-9A52D48986F7">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>CB056C2D-1594-0EC3-0984-8FD5275CA8D7</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80C14396-E6A8-C961-31F2-3B8710AD0C38" referredColumn="BAC528E9-53A2-BB53-9928-68C2920D05BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="320FD433-C723-C29C-CB21-8302966A1678" name="Asistencias_PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>CF43ED58-935E-C7D7-2D99-3673E762DDDE</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94539043-F5DA-8DC4-DD17-E296414C3123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D773D551-E130-1FCF-E283-41F6EE654351" name="Asistencias_DIAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>4EAAAD75-CE84-78BA-EE35-21651FB3040A</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="505004AA-9469-0635-BD57-4A0742DE9F4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="093B2873-3745-B5A3-1381-15557AE8E9E0" name="Asistencias_HORAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>DFC7F521-A36E-B560-36B5-3C3B7D88DCF7</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566C632A-A675-271E-C74F-E3F34EF782B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B418AD74-3A44-E281-3B20-7A11C7388DD6" name="Asistencias_PERSONAS_FK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-27 21:15:23 UTC</createdTime>
+<generatorID>D76500F6-751F-BFF2-55E9-4EB52C9A7BB6</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71D1F353-6418-F3DC-E171-9A52D48986F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

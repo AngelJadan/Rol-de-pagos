@@ -1,0 +1,358 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C43E3C94-6C0B-6D4A-0038-32CE9663A804" name="ROLES">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:25:32 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rol id" id="7335D273-3A88-7E34-5C2F-68C09DCB491E">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:25:40 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPRESAS emp id" id="D1D5F714-F384-DE86-5968-67C23839964F">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:33:40 UTC</createdTime>
+<generatorID>43A51011-7368-7A66-C7E2-34B7683CD6F6</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<referedAttribute>7B5C1F70-A845-00C1-E2FB-3FF9A067782E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REPRESENTANTES LEGALES rep id" id="D0027118-9EDE-721E-240B-7BAA4546E00F">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:33:50 UTC</createdTime>
+<generatorID>2FD5923A-1BEC-1F12-122A-F00EC6DEC42C</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<referedAttribute>37945048-FE16-FF58-1D16-D82A6B336EAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol sueldo nominal" id="3C0048F5-6868-C5EE-461D-E6FD08E6B7A2">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:34:25 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol dias" id="973E7566-BE27-6FAD-8131-04AF57696565">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:34:46 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol valor horas extras" id="6072DC30-32CB-439B-28D8-B03615FC3FC0">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:34:58 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol valor suplementarias" id="2B9B6162-82AE-1B40-6764-6263EF973327">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:35:19 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol valor nocturnas" id="1D3F199B-1BE9-65BE-F24E-E06CEF49934F">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:35:47 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol valor comision" id="E1B2C2B9-8987-412F-CC55-B1FDD8AE4064">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:36:14 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol total ing gravado" id="3FA9FF1E-4A0B-C5C6-9EA1-0DF351822E11">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:36:32 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol valor decimo cuarto" id="F5019EC7-DD3A-0AA9-9FE2-74E22B2A555B">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:37:14 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol tipo decimo cuarto" id="9DF05E13-D7F1-DFFF-A74F-A72B491ED8EC">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:37:39 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol valor decimo tercero" id="B983FB63-105F-5E54-512B-1460A8383F65">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:37:57 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol tipo decimo tercero" id="AE34434B-0391-366A-CA7A-B137F34348CE">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:38:11 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol fondo reserva" id="0F329961-1450-FA68-E8F5-BBB939BC35D1">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:38:37 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol tipo fondo reserva" id="8BEA9128-528E-16B1-9391-46A42FCE7647">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:38:56 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol alimentacion" id="15745B79-ECD3-379A-AB92-B393CD748AB1">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:39:14 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol transporte" id="A10E7C5B-9AD9-9162-1FE5-F98766DF8E66">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:39:39 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol total ingreso no gravado" id="B47D7474-4F80-27B6-9550-0A4F10700FF5">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-11 19:39:54 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol_aporte_seguro" id="55EB0642-6B05-64A3-4B4D-BA920B110F1F">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-12 20:28:27 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>112</dataTypeScale>
+<ownDataTypeParameters>,2,112</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol_total_descuento" id="E35E869E-A751-44B5-2144-B1FD7629FC54">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-12 20:29:57 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>12</dataTypeScale>
+<ownDataTypeParameters>,2,12</ownDataTypeParameters>
+</Attribute>
+<Attribute name="per id" id="56A3D4A5-5DFF-357F-81AC-FC6D7C685C63">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-12 05:00:30 UTC</createdTime>
+<generatorID>82FF3464-2057-64B4-74CE-7CC580725949</generatorID>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<referedAttribute>8D2DCA34-2C33-8AF3-79DD-129D783441AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A4DBC25-9C2E-80C8-ABFD-9EDF817F1758" name="ROLES PK">
+<createdBy>EstAngelMesiasJadanC</createdBy>
+<createdTime>2020-01-10 06:25:49 UTC</createdTime>
+<ownerDesignName>rol_Pagos_DB</ownerDesignName>
+<engineerTo>
+<item key="42F33E6F-9714-D82E-1368-F79AD9674556" value="true"/>
+<item key="61C8C2BA-6109-EF68-E91C-2584F0FEFDF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7335D273-3A88-7E34-5C2F-68C09DCB491E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
